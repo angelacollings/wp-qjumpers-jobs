@@ -106,13 +106,19 @@ function qj_jobs_save_data() {
     }
 }
 
-// Register a daily cron job to update the data
-function qj_jobs_schedule_cron() {
+// Schedule cron job on plugin activation
+function qj_jobs_activate() {
     if ( ! wp_next_scheduled( 'qj_jobs_cron_hook' ) ) {
         wp_schedule_event( time(), 'daily', 'qj_jobs_cron_hook' );
     }
 }
-add_action( 'wp', 'qj_jobs_schedule_cron' );
+register_activation_hook( __FILE__, 'qj_jobs_activate' );
+
+// Unschedule cron job on plugin deactivation
+function qj_jobs_deactivate() {
+    wp_clear_scheduled_hook( 'qj_jobs_cron_hook' );
+}
+register_deactivation_hook( __FILE__, 'qj_jobs_deactivate' );
 
 // Hook the cron job to update the data
 function qj_jobs_cron_job() {
