@@ -6,7 +6,7 @@ A plugin to display your QJumpers jobs on your own Wordpress site.
 
 ## Installation
 
-- Install the plugin by manually copying `wp-qjumpers-jobs-level.php` to your plugin folder
+- Install the plugin by manually copying `wp-qjumpers-jobs.php` to your plugin folder
 - Activate the plugin under the plugin page
 - Under _Settings > QJumpers Jobs_ enter the following fields:
 
