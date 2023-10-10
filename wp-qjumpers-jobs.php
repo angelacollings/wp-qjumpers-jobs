@@ -1,10 +1,11 @@
 <?php
 /**
- * Plugin Name: WP QJumpers Jobs LEVEL
- * Plugin URI: https://github.com/qjumpersnz/wp-qjumpers-jobs
+ * Plugin Name: WP QJumpers Jobs MODIFIED
+ * Plugin URI: https://github.com/angelacollings/wp-qjumpers-jobs
  * Description: A modified version of the WP QJumpers Jobs Wordpress Plugin to embed QJumpers Jobs in your site.
  * Version: 0.2.0
- * Author: Andrew Ford, Angela Collings
+ * Author: Angela Collings, Andrew Ford 
+ * Author URI: https://github.com/qjumpersnz/wp-qjumpers-jobs
  *
  * @package wp-qjumpers-jobs
  */

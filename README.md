@@ -4,6 +4,10 @@ A modified version of the QJumpers Jobs Wordpress Plugin
 
 A plugin to display your QJumpers jobs on your own Wordpress site.
 
+## Original Plugin URL
+
+https://github.com/qjumpersnz/wp-qjumpers-jobs
+
 ## Installation
 
 - Install the plugin by manually copying `wp-qjumpers-jobs.php` to your plugin folder
